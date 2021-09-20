@@ -1,0 +1,95 @@
+.main-section {
+  height: 100%;
+  margin-top: -75px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  box-sizing: inherit;
+}
+
+.flex-column {
+  width: 80%;
+  margin: auto;
+  min-width: 320px;
+  max-width: 500px;
+  position: relative;
+  top: 75px;
+  z-index: 1;
+}
+
+.profile-img {
+  position: relative;
+  top: 75px;
+  z-index: 1;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  font-size: 0.92857143rem;
+}
+
+.profile-img > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 500rem;
+}
+
+.basic-info {
+  position: relative;
+  padding: 5%;
+  padding-top: 75px;
+  color: black;
+  background-color: white;
+}
+
+.basic-info > div {
+  margin-top: 16px;
+}
+
+.center-aligned {
+  text-align: center;
+  font: bold 22px Helvetica;
+}
+
+.center-aligned > span {
+  color: lightslategray;
+  font: lighter 14px Helvetica;
+}
+
+.degree-info,
+.quote {
+  font: 300 18px/24px "Open Sans";
+}
+
+.horizontal-line {
+  position: relative;
+  right: 6%;
+  width: 111%;
+  height: 0px;
+  border-top: 0.2px solid lightgrey;
+}
+
+.contact-me,
+.work {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.contact-me > a,
+.work-card {
+  margin-right: 16px;
+  text-decoration: none;
+  text-transform: none;
+  color: cadetblue;
+}
+
+.work {
+  margin-top: 24px !important;
+}
+
+.work-card {
+  border: 1px solid grey;
+  padding: 8px;
+  color: black;
+}

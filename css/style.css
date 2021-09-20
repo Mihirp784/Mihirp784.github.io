@@ -1,0 +1,14 @@
+body {
+  min-height: 320px;
+  background-color: #e0e0e0;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
