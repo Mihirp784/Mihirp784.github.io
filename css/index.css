@@ -12,7 +12,7 @@
   width: 80%;
   margin: auto;
   min-width: 320px;
-  max-width: 500px;
+  max-width: 600px;
   position: relative;
   top: 75px;
   z-index: 1;
@@ -49,17 +49,21 @@
 
 .center-aligned {
   text-align: center;
-  font: bold 22px Helvetica;
+  font-weight: bold;
+  font-size: 22px;
 }
 
 .center-aligned > span {
   color: lightslategray;
-  font: lighter 14px Helvetica;
+  font-weight: lighter;
+  font-size: 14px;
 }
 
 .degree-info,
 .quote {
-  font: 300 18px/24px "Open Sans";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .horizontal-line {
