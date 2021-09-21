@@ -1,0 +1,106 @@
+body > :not(:first-child) {
+  margin: 0 10% 0 8%;
+}
+
+.resume-name {
+  padding: 12px;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+
+.contact-details a {
+  color: lightseagreen;
+  padding: 2px;
+  width: fit-content;
+}
+
+.contact-links {
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.technical-info-title,
+.soft-skills-info-title {
+  font-weight: bold;
+  color: seagreen;
+  margin: 32px 0 12px;
+  font-size: 18px;
+}
+
+.technical-info-sub-title {
+  font-weight: bold;
+  color: #030201;
+  font-size: 18px;
+  margin: 12px 0 12px;
+}
+
+.technical-info-sub-title > span {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.technical-info-duration {
+  font-weight: lighter;
+  color: grey;
+  margin: -8px 0 12px;
+}
+
+.technical-info-description {
+  font-weight: normal;
+  color: #434343;
+}
+
+.soft-skills-info-sub-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 12px 0 0;
+}
+
+.soft-skills-info-sub-title > span {
+  font-weight: normal;
+  font-size: 16px;
+  color: #434343;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-details {
+    flex-direction: row;
+  }
+
+  .contact-details > * {
+    flex: 1 0 auto;
+  }
+
+  .contact-info {
+    text-align: right;
+  }
+
+  .resume-content {
+    flex-direction: row;
+    align-content: stretch;
+    column-gap: 32px;
+  }
+
+  .technical-info {
+    flex: 5 0;
+    padding-right: 12px;
+  }
+
+  .soft-skills-info {
+    flex: 2 0;
+    margin-right: -24px;
+  }
+}
