@@ -62,12 +62,14 @@ a div {
   background-color: #c0c0c0;
 }
 
-.project-section {
+.project-section,
+.paper-section {
   display: flex;
   flex-direction: column;
 }
 
-.project-item {
+.project-item,
+.paper-item {
   display: flex;
   flex-direction: column;
   margin: 16px;
@@ -76,19 +78,22 @@ a div {
   border: 1px solid lightskyblue;
 }
 
-.project-title {
+.project-title,
+.paper-title {
   font-weight: 700;
   font-size: 22px;
   padding: 0 16px;
 }
 
-.project-date {
+.project-date,
+.paper-date {
   margin-top: 8px;
   padding: 0 16px;
   color: #a0a0a0;
 }
 
-.project-description {
+.project-description,
+.paper-description {
   margin-top: 12px;
   padding: 0 16px;
   font-weight: 400;
@@ -96,7 +101,8 @@ a div {
   color: #222222;
 }
 
-.project-button {
+.project-button,
+.paper-button {
   margin: 16px 0 0;
   padding: 8px;
   text-decoration: none;
@@ -123,19 +129,23 @@ a div {
     margin-top: 10%;
   }
 
-  .project-section {
+  .project-section,
+  .paper-section {
     flex-direction: row;
   }
 
-  .project-section > * {
+  .project-section > *,
+  .paper-section > * {
     flex: 1 0;
   }
 
-  .project-description {
+  .project-description,
+  .paper-description {
     flex: 1 0;
   }
 
-  .project-title {
+  .project-title,
+  .paper-title {
     height: 48px;
   }
 }
